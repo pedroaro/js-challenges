@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Binary Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div  class="jumbotron" style="width:33%; padding-top: 0; padding-bottom: 0;" id="calculator">
+            <div id="res" style="text-align: right;"></div>
+            <div id="btns">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id="btn0" onclick="cero()" class="btn btn-default">0</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="btn1"  onclick="uno()" class="btn btn-default">1</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="btnClr" onclick="erase()" class="btn btn-default">C</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="btnEql" onclick="igual()" class="btn btn-default">=</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id="btnSum" onclick="mas()" class="btn btn-default">+</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="btnSub" onclick="menos()" class="btn btn-default">-</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="btnMul" onclick="mul()" class="btn btn-default">*</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="btnDiv" onclick="div()"  class="btn btn-default">/</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js" type="text/javascript"></script>
+    </body>
+</html>

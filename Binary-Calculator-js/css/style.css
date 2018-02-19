@@ -1,0 +1,21 @@
+#res{   
+    width: 100%;
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+.btn{
+    padding: 20% 35%;
+    margin: 0 1px;
+    width: auto;
+    overflow: hidden;
+}
+
+#btns{
+    margin-left: 10;
+}
+
+.col-md-3{
+ padding: 2px 1px;
+}
